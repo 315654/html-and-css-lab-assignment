@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mobile First</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 16px; }
+.card { background: #f1f5f9; border: 1px solid #94a3b8; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+@media (min-width: 600px) {
+.cards { display: flex; gap: 16px; }
+.card { flex: 1; }
+}
+</style>
+</head>
+<body>
+<div class="cards">
+<div class="card">
+<h2>Learn HTML</h2>
+<p>Start with tags, headings, lists and links.</p>
+</div>
+<div class="card">
+<h2>Learn CSS</h2>
+<p>Add colours, spacing and layouts to your pages.</p>
+</div>
+</div>
+</body>
+</html>

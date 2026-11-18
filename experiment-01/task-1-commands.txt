@@ -1,0 +1,7 @@
+mkdir html-lab
+git init
+git config --local user.name "Priyanshu"
+git config --local user.email "gangwarpriyanshu565@gmail.com"
+
+git config user.name
+git config user.email

@@ -1,0 +1,4 @@
+echo '<h2>Next meeting</h2>' >> index.html
+git add index.html
+git commit -m "Add next meeting heading"
+git log --oneline
